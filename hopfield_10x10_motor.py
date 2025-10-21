@@ -1,9 +1,4 @@
-# Hopfield 10x10 - Regla de Hebb - SOLO NumPy
-# - Carga patrones binarios 10x10 desde .txt (0/1)
-# - Entrena con Hebb, distorsiona uno con ruido y recupera por dinámica asincrónica
-# - Imprime patrones en ASCII y reporta energía/iteraciones
-#
-# NOTA: Modelo: Hopfield + Hebb (no pseudoinversa).
+# Modelo: Hopfield + Hebb (no pseudoinversa).
 
 import os
 import numpy as np
